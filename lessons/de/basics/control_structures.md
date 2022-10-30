@@ -178,7 +178,7 @@ with {:ok, user} <- Repo.insert(changeset),
 
 Ab Elixir 1.3 unterstützt `with/1` `else` Anweisungen:
 
-```
+```elixir
 import Integer
 
 m = %{a: 1, c: 3}
